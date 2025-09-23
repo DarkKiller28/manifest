@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="peridot"
+           fetch="https://github.com/PeridotSupremacy"
+           revision="lineage-23.0" />
+
+  <remote name="Soverzion-HQ"
+           fetch="https://gitea.com/Soverzion-HQ" />
+
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="peridot" />
+
+  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="peridot" />
+  <project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" remote="peridot" />
+
+  <project path="kernel/xiaomi/peridot" name="device_xiaomi_peridot-kernel" remote="peridot" />
+  <project path="kernel/xiaomi/peridot-modules" name="kernel_xiaomi_peridot-modules" remote="peridot" />
+  <project path="kernel/xiaomi/peridot-devicetrees" name="kernel_xiaomi_peridot-devicetrees" remote="peridot" />
+
+  <project path="packages/apps/XiaomiDolby" name="packages_apps_XiaomiDolby" remote="peridot" />
+
+</manifest>
